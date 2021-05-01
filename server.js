@@ -16,5 +16,5 @@ const port = PORT || 4000;
 const server = http.createServer(app);
 
 server.listen(port, () => {
-  console.log(`server is on ${5000}`);
+  console.log(`server is on ${PORT}`);
 });
