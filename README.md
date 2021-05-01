@@ -22,10 +22,14 @@ npm install
 
 npm run start
 
-# View the application
+# View the application on Github pages
 
-navigate to localhost:3000 to view the application
+https://justinefe.github.io/AON3D/Src/index.html
+
+# View the application on local host
+
+navigate to localhost:4000 to view the application
 
 ### Contributor
 
-- [Efeoghene Justin](https://github.com/justinefe)
+- [Justin Efe](https://github.com/justinefe)
