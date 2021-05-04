@@ -30,7 +30,7 @@ const fetchCall = async (url, method, body = undefined) => {
 };
 // Functions to get photos
 const getPhoto = async (start, limit) => {
-  const url = `http://jsonplaceholder.typicode.com/photos?_start=${start}&_limit=${limit}`;
+  const url = `https://jsonplaceholder.typicode.com/photos?_start=${start}&_limit=${limit}`;
   const { responseObj, statusCode, error } = await fetchCall(url, "GET");
   if (!error) {
     if (statusCode === 200) {
